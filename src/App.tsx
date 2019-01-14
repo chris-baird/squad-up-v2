@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "./Components/BootstrapComponents/Grid";
 import Nav from "./Components/BootstrapComponents/Nav";
+import FilterNav from "./Components/FilterNav";
 
 class App extends Component {
   render() {
@@ -10,7 +11,7 @@ class App extends Component {
         <Container>
           <Row>
             <Col size={"col-sm-12"}>
-              <p>Search Area</p>
+              <FilterNav />
             </Col>
           </Row>
           <Row>
