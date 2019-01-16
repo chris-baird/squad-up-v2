@@ -1,7 +1,7 @@
 import React from "react";
 
 const Container = ({ children }: { children: any }) => (
-  <div className="container">{children}</div>
+  <div className="container-fluid">{children}</div>
 );
 
 const Row = ({ children }: { children: any }) => (

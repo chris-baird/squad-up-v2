@@ -4,6 +4,8 @@ import Nav from "./Components/BootstrapComponents/Nav";
 import FilterNav from "./Components/FilterNav";
 import MainDisplay from "./Components/MainDisplay";
 import GameCard from "./Components/GameCard";
+import TopGames from "./Components/TopGames";
+import MyGames from "./Components/MyGames";
 
 class App extends Component {
   render() {
@@ -20,49 +22,51 @@ class App extends Component {
             <Col size={"col-lg-10 col-md-10 col-sm-12 main"}>
               <MainDisplay>
                 <Row>
-                  <Col size="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                    <img
-                      src="https://placeimg.com/600/800/any"
-                      className="img-fluid"
-                      alt=""
-                    />
+                  <Col size="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                    <GameCard />
                   </Col>
-                  <Col size="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                    <img
-                      src="https://placeimg.com/600/800/any"
-                      className="img-fluid"
-                      alt=""
-                    />
+                  <Col size="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                    <GameCard />
                   </Col>
-                  <Col size="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                    <img
-                      src="https://placeimg.com/600/800/any"
-                      className="img-fluid"
-                      alt=""
-                    />
+                  <Col size="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                    <GameCard />
                   </Col>
-                  <Col size="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                    <img
-                      src="https://placeimg.com/600/800/any"
-                      className="img-fluid"
-                      alt=""
-                    />
+                  <Col size="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                    <GameCard />
                   </Col>
-                  <Col size="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                    <img
-                      src="https://placeimg.com/600/800/any"
-                      className="img-fluid"
-                      alt=""
-                    />
+                  <Col size="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                    <GameCard />
+                  </Col>
+                  <Col size="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                    <GameCard />
+                  </Col>
+                  <Col size="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                    <GameCard />
+                  </Col>
+                  <Col size="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                    <GameCard />
+                  </Col>
+                  <Col size="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                    <GameCard />
+                  </Col>
+                  <Col size="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                    <GameCard />
+                  </Col>
+                  <Col size="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                    <GameCard />
+                  </Col>
+                  <Col size="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                    <GameCard />
                   </Col>
                 </Row>
               </MainDisplay>
             </Col>
             <Col size="col-lg-2 col-md-2 d-none d-sm-block d-sm-none d-md-block">
-              <div className="side1">Side 1</div>
-              <div className="side2">Side 2</div>
+              <TopGames />
+              <MyGames />
             </Col>
           </Row>
+          <button className="fixed-bottom">Top</button>
         </Container>
       </div>
     );
