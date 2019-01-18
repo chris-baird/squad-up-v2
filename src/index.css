@@ -14,8 +14,16 @@ code {
 }
 
 .filter-nav {
+  margin-top: 1em;
   padding-left: 0;
   padding-right: 0;
+}
+
+.main-display {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 80vh;
+  padding: 0 1em;
 }
 
 .card {

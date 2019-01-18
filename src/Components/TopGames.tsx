@@ -20,6 +20,11 @@ const TopGames = () => {
             Halo 5
           </a>
         </p>
+        <p>
+          <a href="#" className="card-link">
+            World Of Warcraft
+          </a>
+        </p>
       </div>
     </div>
   );
